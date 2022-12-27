@@ -1,0 +1,16 @@
+input:valid {
+  border: 1.5px solid green;
+}
+input:invalid {
+  border: 1.5px solid red;
+}
+@media screen and (max-width: 678px) {
+  button,
+  input,
+  .form {
+    width: 100%;
+  }
+  .form {
+    padding: 10px;
+  }
+}
